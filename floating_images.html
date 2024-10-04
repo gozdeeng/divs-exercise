@@ -1,0 +1,66 @@
+<!-- resim ve yazinin konumlariyla oynama islemine floating denir -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vakıf</title>
+    <style>
+      /* float: left; resmi sola alir
+      margin-right: 20px; resimle yandaki yazi arasina bosluk birakir*/
+      img {
+        width: 300px;
+        float: left;
+        margin-right: 20px;
+      }
+      .bolum {
+        /* resim sayfa genislendikce borderin disinda kaldigi icin
+        overflow: auto; ile resmin sayfa genisligine gore hep border
+        icinde kalmasini sagliyor  */
+        border: 1px solid royalblue;
+        overflow: auto;
+        padding: 10px;
+        background-color: coral;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Non consequuntur,
+      qui iste, cupiditate vitae, harum deleniti quae commodi assumenda neque
+      atque consequatur odit aspernatur. Ex minima molestiae odit exercitationem
+      reiciendis?
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Non consequuntur,
+      qui iste, cupiditate vitae, harum deleniti quae commodi assumenda neque
+      atque consequatur odit aspernatur. Ex minima molestiae odit exercitationem
+      reiciendis?
+    </p>
+    <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Non consequuntur,
+      qui iste, cupiditate vitae, harum deleniti quae commodi assumenda neque
+      atque consequatur odit aspernatur. Ex minima molestiae odit exercitationem
+      reiciendis?
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Non consequuntur,
+      qui iste, cupiditate vitae, harum deleniti quae commodi assumenda neque
+      atque consequatur odit aspernatur. Ex minima molestiae odit exercitationem
+      reiciendis?
+    </p>
+    <div class="bolum">
+      <img src="images/vakif.png" alt="" />
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio
+      maiores, incidunt laboriosam minus placeat tempore similique eaque
+      repellendus quos repudiandae impedit est aut beatae, labore sit? Natus hic
+      saepe sequi. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+      Tenetur obcaecati praesentium aut ea nostrum eaque quibusdam, quae
+      pariatur sed quia reiciendis fugit debitis! Earum eos tempora possimus ab,
+      quas deleniti.
+    </div>
+  </body>
+</html>
